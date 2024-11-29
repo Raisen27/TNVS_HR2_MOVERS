@@ -1,0 +1,466 @@
+body{
+  background-color: #007bff11 ;
+  
+}
+
+        .header{
+      background-color: #fcfdff;
+      position: fixed;
+      top: 0px;
+      left: 232px;
+      right: 0px;
+      height: 30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      display: flex;
+      align-items: left;
+      justify-content: space-between;
+      color: #0046fa;
+      font-family: system-ui;
+      font-weight: bold;
+      font-size: 19px;
+      text-align: left;
+    }
+    .header img {
+      height: 30px; 
+      width: auto;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+      margin-right: 10px;
+    }
+    .container {  
+      width: 230px;
+      height: 100vh;
+      background-color: #fcfdff;
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding-top: 0px;
+      box-sizing: border-box;
+      margin-left: 0px;
+      overflow-y: auto;
+      scrollbar-width: none; 
+    -ms-overflow-style: none; 
+    }
+     .container::-webkit-scrollbar { 
+       display: none; 
+      }
+
+.photo img{
+  margin-top: 40px;
+  height: 70px;
+  width: auto;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.dashboardSection {
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+ }
+.dashboard{
+    display: block;
+    color: #16259a;
+    text-align: left;
+    font-family: system-ui;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+ }
+ .dashboard:hover {
+   background-color: #007aff26;
+   color: black;
+ }
+   .dashboard:active{
+     background-color: #007aff80;
+     color: black;
+ }
+
+ .recruitmentSection{
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  }
+  .recruitment{
+    display: block;
+      color: #16259a;
+    text-align: center;
+    font-family: system-ui;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 10px;
+    }
+    .recruitment:hover {
+        background-color: #007aff26;
+        color: black;
+    }
+    .recruitment:active{
+        background-color: #007aff80;
+        color: black;
+    }
+
+    .performanceSection {
+      align-items: center;
+      padding: 12px;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      }
+
+      .performance {
+        display: block;
+        color: #16259a;
+        text-align: center;
+        font-family: system-ui;
+        padding-bottom: 5px;
+        padding-top: 0px;
+        font-weight: 500;
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: none;
+        text-align: left;
+        margin-left: 10px;
+        }
+        .performance:hover {
+            background-color: #7091e6;
+            color: black;
+        }
+        .performance:active{
+            background-color: #3d52a0;
+            color: black;
+        }
+
+        .trainingSection {
+          align-items: center;
+          padding: 12px;
+          margin-bottom: 5px;
+          margin-top: 5px;
+        }
+        .trainAndDev{
+          display: block;
+          color: #16259a;
+          text-align: center;
+          font-family: system-ui;
+          padding-bottom: 5px;
+          padding-top: 0px;
+          font-weight: 500;
+          font-size: 14px;
+          padding-left: 10px;
+          padding-right: 10px;
+          text-decoration: none;
+          text-align: left;
+          margin-left: 10px;
+          }
+          .trainAndDev:hover {
+              background-color: #7091e6;
+              color: black;
+          }
+          .trainAndDev:active{
+              background-color: #3d52a0;
+              color: black;
+          }
+
+          .Logout {
+            align-items: center;
+            padding: 5px;
+            margin-bottom: 5px;
+            margin-top: 200px;
+
+            }
+          .logoutbtn{
+            display: block;
+            color: #0046Fa;
+            text-align: center;
+            font-family: system-ui;
+            padding-bottom: 5px;
+            padding-top: 0px;
+            font-weight: 500;
+            font-size: 14px;
+            padding-left: 10px;
+            padding-right: 10px;
+            text-decoration: none;
+            text-align: left;
+            margin-left: 10px;
+            }
+            .logoutbtn:hover {
+                background-color: #007aff26;
+                color: black;
+            }
+            .logoutbtn:active{
+                background-color: #007aff80;
+                color: black;
+            }
+            
+          .buttonContainer {
+            background-color: #007aff26;
+            position: fixed;
+            top: 50.5px;
+            left: 232px;
+            right: 2px;
+            height: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #76767680;           
+        }
+
+        .d-text{
+          color: #0046f9;
+          font-size: 15px;
+          font-weight: 500px;
+        }
+
+        
+
+        .body-div {
+          top: 84px; /* Distance from the top */
+          left: 225px; /* Distance from the left */
+          background-color: #007bff11;
+          position: relative; /* Keep it fixed relative to the viewport */
+          height: calc(100vh - 113px); /* Adjust height to leave space for header */
+          width: calc(100% - 225px); /* Adjust width to account for left position */
+          overflow-y: auto; /* Enable vertical scrolling */
+          padding: 1px; /* Add some padding */
+          border-color: #00000067;
+          padding-bottom: 20px;
+      }
+
+        .dashboard-container {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          gap: 2px;
+          position: absolute;
+          top: 20px;
+          left: 20px;
+          right: 10px;
+          z-index: 1; /* Lower z-index so modal appears above */
+        }
+        
+        .dash-item1,  .dash-item2, .dash-item3, .dash-item4 {
+          border: 1px solid #ddd;
+          border-radius: 10px;
+          padding: 15px;
+          height: 90px;
+          width: 80%;
+          text-align: center;
+          background-color: #ffffff;
+          font-size: 20px;
+          font-family: Arial;
+          cursor: pointer;
+          transition: transform 0.3s ease;
+         
+        }
+        .dash-item1 h3,  .dash-item2 h3, .dash-item3 h3, .dash-item4 h3{
+          font-size: 18px;
+          margin: 5px 0;
+          font-family: Arial;
+        }
+
+        .dash-item1:hover,  .dash-item2:hover, .dash-item3:hover, .dash-item4:hover{
+          transform: scale(1.01);
+        }
+        p{
+          font-size: 40px;
+          font-weight: 700;
+          margin-top: 10px;
+        }
+
+
+ /*job offers*/
+
+        /* Job Offers Modal Styling */
+.jobOffersmodal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1000; /* On top of other elements */
+  left: 0;
+  top: 0;
+  padding-top: 100px;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.371); /* Black background with opacity */
+}
+
+.job-modal-content {
+  background-color: #fff;
+  padding: 20px; /* Increased padding for better appearance */
+  border: 1px solid #888;
+  width: 40%; /* Modal width */
+  border-radius: 10px;
+  text-align: center;
+  position: relative; /* For positioning the close button */
+  max-height: 80%; /* Set a maximum height to avoid excessive height */
+  overflow-y: auto; /* Add scroll if content exceeds max-height */
+  margin: auto; /* Center the modal */
+}
+
+/* Close button styling */
+.job-modal-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Total Applicant Modal Styling */
+.totalApplicantModal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1000; /* On top of other elements */
+  left: 0;
+  top: 0;
+  padding-top: 100px;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.371); /* Black background with opacity */
+  
+}
+
+.applicant-modal-content {
+  background-color: #fff;
+  padding: 20px; /* Increased padding for better appearance */
+  border: 1px solid #888;
+  width: 40%; /* Modal width */
+  border-radius: 10px;
+  text-align: center;
+  position: relative; /* For positioning the close button */
+  max-height: 80%; /* Set a maximum height to avoid excessive height */
+  overflow-y: auto; /* Add scroll if content exceeds max-height */
+  margin: auto; /* Center the modal */
+}
+
+/* Close button styling */
+.applicant-modal-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Table styling */
+.applicant-table,
+.job-table,
+.hired-table,
+.training-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  font-family: Arial;
+  font-size: 15px;
+}
+
+.applicant-table th,
+.job-table th,
+.hired-table th,
+.training-table th {
+  background-color: #a6c4e5;
+  color: #333;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.applicant-table td,
+.job-table td,
+.hired-table td,
+.training-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Striped row effect */
+.applicant-table tbody tr:nth-child(even),
+.job-table tbody tr:nth-child(even),
+.hired-table tbody tr:nth-child(even),
+.training-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Hover effect for rows */
+.applicant-table tbody tr:hover,
+.job-table tbody tr:hover,
+.hired-table tbody tr:hover,
+.training-table tbody tr:hover {
+  background-color: #d9eaf7;
+}
+
+/* Responsive modal */
+@media (max-width: 768px) {
+  .applicant-modal-content,
+  .job-modal-content,
+  .hired-modal-content,
+  .training-modal-content {
+      width: 90%; /* Reduce width on smaller screens */
+  }
+}
+
+.hiredmodal, .trainingmodal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1000; /* On top of other elements */
+  left: 0;
+  top: 0;
+  padding-top: 100px;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.371); /* Black background with opacity */
+}
+
+.hired-modal-content, .training-modal-content {
+  background-color: #fff;
+  padding: 20px; /* Increased padding for better appearance */
+  border: 1px solid #888;
+  width: 40%; /* Modal width */
+  border-radius: 10px;
+  text-align: center;
+  position: relative; /* For positioning the close button */
+  max-height: 80%; /* Set a maximum height to avoid excessive height */
+  overflow-y: auto; /* Add scroll if content exceeds max-height */
+  margin: auto; /* Center the modal */
+}
+
+/* Close button styling */
+.hired-modal-close, .training-modal-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+        
+
+        
+      
+        
+       
+
+ 
+
+
+
+

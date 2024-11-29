@@ -1,0 +1,489 @@
+body{
+  background-color: #007bff11;
+}
+
+      .header{
+      background-color: #fcfdff;
+      position: fixed;
+      top: 0px;
+      left: 232px;
+      right: 0px;
+      height: 30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      display: flex;
+      align-items: left;
+      justify-content: space-between;
+      color: #0046fa;
+      font-family: system-ui;
+      font-weight: bold;
+      font-size: 19px;
+      text-align: left;
+    }
+    .header img {
+      height: 30px; 
+      width: auto;
+      margin-right: 10px;
+    }
+
+    .container {
+      width: 230px;
+      height: 100vh;
+      background-color: #fcfdff;
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding-top: 0px;
+      box-sizing: border-box;
+      margin-left: 0px;
+      overflow-y: auto;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+  }
+  .container::-webkit-scrollbar {
+      display: none;
+  }
+  
+  .photo img{
+      margin-top: 40px;
+      height: 70px;
+      width: auto;
+      align-items: center;
+      margin-left: 15px;
+  }
+  
+  .dashboardSection {
+      align-items: center;
+      padding: 12px;
+      margin-bottom: 5px;
+      margin-top: 15px;
+  }
+  .dashboard{
+      display: block;
+      color: #16259a;
+      padding: 10px;
+      text-decoration: none;
+      font-size: 14px;
+      text-align: left;
+      font-family: system-ui;
+      font-weight: 500;
+      align-items: center;
+      margin-left: 10px;
+  }
+  .dashboard:hover {
+      background-color: #007aff26;
+      color: black;
+  }
+  .dashboard:active{
+      background-color: #007aff80;
+      color: black;
+  }
+  
+  .recruitmentSection{
+      align-items: center;
+      padding: 12px;
+      margin-bottom: 5px;
+      margin-top: 5px;
+  }
+  .recruitment{
+      display: block;
+      color: #16259a;
+      font-family: system-ui;
+      padding-bottom: 5px;
+      padding-top: 0px;
+      font-weight: 500;
+      font-size: 14px;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-decoration: none;
+      text-align: left;
+      margin-left: 10px;
+  }
+  .recruitment:hover {
+      background-color: #7091e6;
+      color: black;
+  }
+  .recruitment:active{
+      background-color: #3d52a0;
+      color: black;
+  }
+  
+  .performanceSection {
+      align-items: center;
+      padding: 12px;
+      margin-bottom: 5px;
+      margin-top: 5px;
+  }
+  
+  .performance{
+      display: block;
+      color: #16259a;
+      font-family: system-ui;
+      padding-bottom: 5px;
+      padding-top: 0px;
+      font-weight: 500;
+      font-size: 14px;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-decoration: none;
+      text-align: left;
+      margin-left: 10px;
+  }
+  
+  .performance:hover {
+      background-color: #7091e6;
+      color: black;
+  }
+  .performance:active{
+      background-color: #3d52a0;
+      color: black;
+  }
+  
+  .trainingSection {
+      align-items: center;
+      padding: 12px;
+      margin-bottom: 5px;
+      margin-top: 5px;
+  }
+  .m-trainAndDev{
+      display: block;
+      color: #16259a;
+      text-align: left;
+      font-family: system-ui;
+      padding-bottom: 5px;
+      padding-top: 0px;
+      font-weight: bold;
+      font-size: 14px;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-decoration: none;
+  }
+  
+  .buttonContainer {
+      background-color: #007aff26;
+      position: fixed;
+      top: 50.5px;
+      left: 232px;
+      right: 2px;
+      height: 30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #00000080;
+  }
+  
+  .tp-btn3train{
+      color: #000000;
+      font-weight: bold;
+      flex-grow: 1;
+      padding-top: 0px;
+      font-size: 14px;
+      cursor: pointer;
+      font-family: system-ui;
+      padding-left: 1px;
+      padding-right: 2px;
+      text-decoration: none;
+      width: 30px;
+      text-align: center;
+  }
+  .tp-btn3train:hover{
+      color: black;
+      font-weight: 700;
+      height: 30px;
+  }
+  .tp-btn3train:active{
+      background-color: #007aff26;
+      color: black;
+  }
+  
+  .Logout {
+      align-items: center;
+      padding: 5px;
+      margin-bottom: 5px;
+      margin-top: 200px;
+  
+  }
+  .logoutbtn{
+      display: block;
+      color: #0046Fa;
+      text-align: center;
+      font-family: system-ui;
+      padding-bottom: 5px;
+      padding-top: 0px;
+      font-weight: 500;
+      font-size: 14px;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-decoration: none;
+      text-align: left;
+      margin-left: 10px;
+  }
+  .logoutbtn:hover {
+      background-color: #007aff26;
+      color: black;
+  }
+  .logoutbtn:active{
+      background-color: #007aff80;
+      color: black;
+  }
+
+  .buttonContainer {
+    background-color: #007aff26;
+    position: fixed;
+    top: 50.5px;
+    left: 232px;
+    right: 2px;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #00000080;           
+}
+
+.tp-btn3train{
+  color: #000000;
+  font-weight: bold;
+  flex-grow: 1;
+  padding-top: 0px; 
+  font-size: 14px;
+  cursor: pointer;
+  font-family: system-ui;
+  padding-left: 1px;
+  padding-right: 2px;
+  text-decoration: none;
+  width: auto;
+  text-align: center;
+}
+.tp-btn3train:hover{
+  color: black;
+  font-weight: 700;
+  height: 30px;
+}
+.tp-btn3train:active{
+  background-color: #007aff26;
+      color: black;
+}
+
+.btn1train, .btn2train, .btn3train {
+  flex-grow: 1;
+  padding-top: 0px; 
+  font-size: 14px;
+  cursor: pointer;
+  color: #0046Fa;
+  font-family: system-ui;
+  font-weight: 500;
+  padding-left: 1px;
+  padding-right: 2px;
+  text-decoration: none;
+  width: auto;
+  text-align: center;
+}
+
+.btn1train:hover, .btn2train:hover, .btn3train:hover{
+color: white;
+font-weight: 700;
+height: 30px;
+}
+.btn1train:active, .btn2train:active, .btn3train:active{
+background-color:#007aff26;
+color: black;
+}
+
+.div2 {
+    background-color: #ffffff00;
+    position: fixed;
+    top: 101px;
+    left: 231px;
+    right: 2px;
+    height: 30px;
+    padding: 10px 20px; /* Combined padding */
+    display: flex; /* Use flexbox */
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center; /* Center items vertically */
+    border-radius: 3px;
+}
+
+.searchdiv{
+    padding: 0px;
+    width: 25%;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5%;
+    border: none;
+    background-color: #ffffff;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.searchBar{
+    font-size: 13px;
+    height: 32px;
+    width: 80%;
+    flex-grow: 2;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px;
+    background-color: transparent;
+  }
+
+  .searchbtn{
+    font-size: 13px;
+    height: 31px;
+    width: 5%;
+    flex-grow: 2;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent
+  }
+  .searchbtn:hover{
+    border-width: 1px;
+
+}
+.searchbtn:active{
+    border-width: 3px;
+}
+
+        table {
+            margin-top: 155px;
+            margin-left: 240px;
+            width: calc(82% - 1px);
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+            font-size: 15px;
+        }
+
+        td {
+            padding: 7px 10px;
+            text-align: center;
+            border: 1px solid #0000005a;
+        }
+
+        th {
+            background-color: #a6c4e5;
+            color: #333;
+            font-weight: bold;
+            padding: 12px 10px;
+            text-align: center;
+            border: 1px solid #0000005a;
+            position: sticky;
+        }
+
+    /* Striped effect */
+    tbody tr:nth-child(even) {
+        background-color:  #f1f7fc; /* Light stripe for even rows */
+    }
+
+    tbody tr:nth-child(odd) {
+        background-color: #ffffff;/* Default background for odd rows */
+    }
+
+    tbody tr:hover {
+        background-color:#bddaf2; /* Hover effect for rows */
+    }
+
+    .table__body {
+        width: 95%;
+        max-height: calc(89% - 1.6rem);
+        background-color: #fffb;
+    
+        margin: .8rem auto;
+        border-radius: .6rem;
+    
+        overflow: auto;
+        overflow: overlay;
+    }
+    
+    
+    .table__body::-webkit-scrollbar{
+        width: 0.5rem;
+        height: 0.5rem;
+    }
+    
+    .table__body::-webkit-scrollbar-thumb{
+        border-radius: .5rem;
+        background-color: #0004;
+        visibility: hidden;
+    }
+    
+    .table__body:hover::-webkit-scrollbar-thumb{ 
+        visibility: visible;
+    }
+
+
+th {
+        background-color: #a6c4e5;
+        color: #333;
+        font-weight: bold;
+        padding: 12px 10px;
+        text-align: center;
+        border: 1px solid #0000005a;
+        position: sticky;
+    }
+
+
+tbody tr:hover {
+        background-color:#d9eaf7 !important; /* Hover effect for rows */
+    }
+
+
+tbody tr{
+        --delay: .1s;
+        transition: .2s ease-in-out var(--delay), background-color 0s;
+    }
+
+    tbody tr.hide{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    tbody tr td,
+    tbody tr td p{
+       transition: .1s ease-in-out .1s;
+    }
+
+    tbody tr.hide td,
+    tbody tr.hide td p{
+       padding: 5px 10px;
+       font: 0 / 0 arial;
+       transition: .1s ease-in-out;
+    }
+
+    button {
+        margin-right: 5px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 13px;
+        padding: 8px;
+        background-color: #a6c4e5;
+    }
+
+    @media (max-width: 600px) {
+        table {
+            width: 100%;
+            font-size: 12px;
+        }
+
+        th, td {
+            padding: 5px;
+        }
+
+        button {
+            padding: px 6px;
+        }
+    }
+
+
+    

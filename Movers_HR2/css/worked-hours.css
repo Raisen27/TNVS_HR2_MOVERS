@@ -1,0 +1,611 @@
+body{
+    background-color: #007bff11;
+    font-family: Arial, sans-serif;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+        .header{
+        background-color: #fcfdff;
+        position: fixed;
+        top: 0px;
+        left: 232px;
+        right: 0px;
+        height: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        display: flex;
+        align-items: left;
+        justify-content: space-between;
+        color: #0046fa;
+        font-family: system-ui;
+        font-weight: bold;
+        font-size: 19px;
+        text-align: left;
+      }
+      .header img {
+        height: 30px; 
+        width: auto;
+        margin-right: 10px;
+      }
+      /*Side Nav*/
+      .container {
+        width: 230px;
+        height: 100vh;
+        background-color: #fcfdff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding-top: 0px;
+        box-sizing: border-box;
+        margin-left: 0px;
+        overflow-y: auto;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+    .container::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .photo img{
+        margin-top: 40px;
+        height: 70px;
+        width: auto;
+        align-items: center;
+        margin-left: 15px;
+    }
+    
+    .dashboardSection {
+        align-items: center;
+        padding: 12px;
+        margin-bottom: 5px;
+        margin-top: 15px;
+    }
+    .dashboard{
+        display: block;
+        color: #16259a;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 14px;
+        text-align: left;
+        font-family: system-ui;
+        font-weight: 500;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .dashboard:hover {
+        background-color: #007aff26;
+        color: black;
+    }
+    .dashboard:active{
+        background-color: #007aff80;
+        color: black;
+    }
+    
+    .recruitmentSection{
+        align-items: center;
+        padding: 12px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .recruitment{
+        display: block;
+        color: #16259a;
+        font-family: system-ui;
+        padding-bottom: 5px;
+        padding-top: 0px;
+        font-weight: 500;
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: none;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .recruitment:hover {
+        background-color: #7091e6;
+        color: black;
+    }
+    .recruitment:active{
+        background-color: #3d52a0;
+        color: black;
+    }
+    
+    .performanceSection {
+        align-items: center;
+        padding: 12px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    
+    .m-performance{
+        display: block;
+        color: #16259a;
+        text-align: left;
+        font-family: system-ui;
+        padding-bottom: 5px;
+        padding-top: 0px;
+        font-weight: bold;
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: none;
+    }
+    
+    .trainingSection {
+        align-items: center;
+        padding: 12px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .trainAndDev{
+        display: block;
+        color: #16259a;
+        font-family: system-ui;
+        padding-bottom: 5px;
+        padding-top: 0px;
+        font-weight: 500;
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: none;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .trainAndDev:hover {
+        background-color: #7091e6;
+        color: black;
+    }
+    .trainAndDev:active{
+        background-color: #3d52a0;
+        color: black;
+    }
+    
+    .Logout {
+        align-items: center;
+        padding: 5px;
+        margin-bottom: 5px;
+        margin-top: 200px;
+    
+    }
+    .logoutbtn{
+        display: block;
+        color: #0046Fa;
+        text-align: center;
+        font-family: system-ui;
+        padding-bottom: 5px;
+        padding-top: 0px;
+        font-weight: 500;
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: none;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .logoutbtn:hover {
+        background-color: #007aff26;
+        color: black;
+    }
+    .logoutbtn:active{
+        background-color: #007aff80;
+        color: black;
+    }
+  
+                  /*Button menu tabs*/
+                  .buttonContainer {
+                    background-color: #007aff26;
+                    position: fixed;
+                    top: 50.5px;
+                    left: 232px;
+                    right: 2px;
+                    height: 30px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    padding-left: 20px;
+                    padding-right: 550px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-bottom: 1px solid #00000080;           
+                }
+
+                .menu1{
+                    color: #000000;
+                    font-weight: bold;
+                    flex-grow: 1;
+                    padding-top: 0px; 
+                    font-size: 14px;
+                    cursor: pointer;
+                    font-family: system-ui;
+                    padding-left: 1px;
+                    padding-right: 2px;
+                    text-decoration: none;
+                    width: auto;
+                    text-align: center;
+                  }
+                  .menu1:hover{
+                    color: black;
+                    font-weight: 700;
+                    height: 30px;
+                  }
+                  .menu1:active{
+                    background-color: #007aff26;
+                        color: black;
+                  }
+    
+                  .menu2, .menu3{
+                    flex-grow: 1;
+                    padding-top: 0px; 
+                    font-size: 14px;
+                    cursor: pointer;
+                    color: #0046Fa;
+                    font-family: system-ui;
+                    font-weight: 500;
+                    padding-left: 1px;
+                    padding-right: 2px;
+                    text-decoration: none;
+                    width: auto;
+                    text-align: center;
+                }
+    
+                .menu2:hover, .menu3:hover{
+                  color: white;
+                  font-weight: 700;
+                  height: 30px;
+                }
+                .menu2:active, .menu3:active{
+                  background-color:#007aff26;
+                  color: black;
+                }
+
+                    .button {
+                    padding: 5px 10px;
+                    margin-right: 5px;
+                    border: none;
+                    cursor: pointer;
+                    border-radius: 3px;
+                    }
+
+                    .employee-cards-container {
+                        display: grid;
+                        grid-template-columns: repeat(5, 1fr);
+                        gap: 5px;
+                        position: fixed;
+                        top: 180px;
+                        left: 250px;
+                        right: 10px;
+                        z-index: 1; /* Lower z-index so modal appears above */
+                    }
+
+                    .employee-card {
+                        border: 1px solid #ddd;
+                        border-radius: 10px;
+                        padding: 15px;
+                        margin: 5px;
+                        height: 80px;
+                        width: 180px;
+                        text-align: center;
+                        cursor: pointer;
+                        transition: transform 0.3s ease;
+                        background-color: #ffffff;
+                    }
+                    
+                    .employee-card:hover {
+                        transform: scale(1.05);
+                    }
+                    
+                    .employee-card h3 {
+                        font-size: 18px;
+                        margin: 5px 0;
+                        font-family: Arial;
+                    }
+                    
+                    .employee-card p {
+                        font-size: 14px;
+                        color: #555;
+                        font-family: Arial;
+                    }
+
+                    .modal{
+                        display: none; /* Hidden by default */
+                        position: fixed; /* Positioned relative to the viewport */
+                        z-index: 1000; /* High z-index to ensure it appears above everything else */
+                        left: 0;
+                        top: 0;
+                        width: 100%;
+                        height: 100%;
+                        overflow: auto; /* Enable scrolling if content is long */
+                        background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+                    }
+
+                    .modal-content{
+                        background-color: #fff;
+                        padding: 10px; /* Reduced padding for less height */
+                        border: 1px solid #888;
+                        width: 45%; /* Modal width */
+                        border-radius: 10px;
+                        text-align: center;
+                        position: relative; /* For positioning the close button */
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px; /* Space between elements inside modal */
+                        z-index: 1001; /* Make sure content stays above the modal background */
+                        max-height: 80%; /* Set a maximum height to avoid excessive height */
+                        overflow-y: auto; /* Add scroll if content exceeds max-height */
+                        font-size: 14px;
+                        margin-top: 200px;
+                        margin-left: 28%;
+                        color: #000;
+                    }
+
+                    .table__body {
+                        width: 95%;
+                        max-height: calc(89% - 1.6rem);
+                        background-color: #fffb;
+                        margin: .8rem auto;
+                        border-radius: .6rem;
+                        overflow: auto;
+                        overflow: overlay;
+                    }
+                    
+                    
+                    .table__body::-webkit-scrollbar{
+                        width: 0.5rem;
+                        height: 0.5rem;
+                    }
+                    
+                    .table__body::-webkit-scrollbar-thumb{
+                        border-radius: .5rem;
+                        background-color: #0004;
+                        visibility: hidden;
+                    }
+                    
+                    .table__body:hover::-webkit-scrollbar-thumb{ 
+                        visibility: visible;
+                    }
+
+                    .worked-hours-table {
+                        width: 100%;
+                        border-collapse: collapse;
+                        margin: 20px auto; /* Center the table horizontally */
+                    }
+                    
+                    .worked-hours-table th {
+                        background-color: #a6c4e5;
+                        color: #333;
+                        padding: 10px;
+                        text-align: left;
+                        font-weight: bold;
+                        position: sticky;
+                    }
+                    
+                    .worked-hours-table td {
+                        padding: 10px;
+                        border: 1px solid #ddd;
+                    }
+                    
+                    /* Striped row effect */
+                    .worked-hours-table tbody tr:nth-child(even) {
+                        background-color: #f2f2f2;
+                    }
+                    
+                    /* Hover effect for rows */
+                    .worked-hours-table tbody tr:hover {
+                        background-color: #d9eaf7;
+                    }
+
+                    #employeeName, #employeeDepartment {
+                        display: block;    /* Ensure they are block elements */
+                        height: auto;      /* Let the browser determine height automatically */
+                        overflow: visible; /* Ensure text is not hidden */
+                        margin: 0;         /* Avoid negative margins affecting layout */
+                        padding: 0;        /* Avoid padding affecting layout */
+                        color: black;      /* Ensure text color is readable */
+                        font-size: 16px;   /* Ensure a standard font size */
+                    }
+
+                    #employeeName {
+                        display: block !important;  /* Ensure it's not hidden */
+                        visibility: visible !important;  /* Ensure it's not set to 'hidden' */
+                        color: black;  /* Ensure the text color is set properly */
+                        font-size: 16px;  /* Make sure the font size is readable */
+                        height: auto;  /* Reset any negative height issues */
+                    }
+
+                    h2{
+                        color: #000;
+                        margin: 0px;
+                        font-weight: bold;
+                        font-size: 14px;
+                        display: flex;
+                        align-items: center;
+                        height: auto;
+                        margin-top: 0px;
+                        margin-bottom: 5px;
+                        font-size: 20px;
+                        padding: 50px;
+                        line-height: 1.2;
+                    
+                    }
+
+                    .modal-close{
+                        position: absolute;
+                        top: 10px;
+                        right: 15px;
+                        color: #aaa;
+                        font-size: 28px;
+                        font-weight: bold;
+                        cursor: pointer;
+                    }
+
+                    .modal-close:hover, .close:focus {
+                        color: black;
+                        text-decoration: none;
+                    }
+
+
+                    .div2 {
+                        background-color: #ffffff00;
+                        position: fixed;
+                        top: 112px;
+                        left: 231px;
+                        right: 2px;
+                        height: 30px;
+                        padding: 10px 20px; /* Combined padding */
+                        display: flex; /* Use flexbox */
+                        justify-content: flex-end; /* Align items to the right */
+                        align-items: center; /* Center items vertically */
+                        border-radius: 3px;
+                    }
+        
+                    .searchdiv{
+                        padding: 0px;
+                        width: 25%;
+                        cursor: pointer;
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 0.5%;
+                        border: none;
+                        background-color: #ffffff;
+                        height: 40px;
+                        border-radius: 10px;
+                    }
+        
+                    .searchBar{
+                        font-size: 13px;
+                        height: 32px;
+                        width: 80%;
+                        flex-grow: 2;
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        border: 1px;
+                        background-color: transparent;
+                        border-radius: 10px;
+                      }
+        
+                      .searchbtn{
+                        font-size: 13px;
+                        height: 31px;
+                        width: 5%;
+                        flex-grow: 2;
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: transparent;
+                        border: none;
+                        border-width: 0;
+                      }
+                    
+                    
+                    .add-btn {
+                        padding: 10px 20px;
+                        width: auto;
+                        border: 1px solid #000;
+                        background-color: #007aff26;
+                        cursor: pointer;
+                        border-radius: 5px;
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 0.5%
+                    }
+                    
+                    .add-btn i {
+                        margin-right: 8px;
+                    }                    
+                    
+                    .add-modal {
+                        display: none; /* Hidden by default */
+                        position: fixed; /* Positioned relative to the viewport */
+                        z-index: 1000; /* High z-index to ensure it appears above everything else */
+                        left: 0;
+                        top: 0;
+                        width: 100%;
+                        height: 100%;
+                        overflow: auto; /* Enable scrolling if content is long */
+                        background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+                    }
+                    
+                    .add-modal-content {
+                        background-color: #fefefe;
+                        padding: 5px; /* Reduced padding for less height */
+                        border: 1px solid #888;
+                        width: 45%; /* Modal width */
+                        border-radius: 10px;
+                        text-align: center;
+                        position: relative; /* For positioning the close button */
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px; /* Space between elements inside modal */
+                        z-index: 1001; /* Make sure content stays above the modal background */
+                        max-height: 80%; /* Set a maximum height to avoid excessive height */
+                        overflow-y: auto; /* Add scroll if content exceeds max-height */
+                        font-size: 12px;
+                        margin-top: 20px;
+                        margin-left: 27%;
+                    }
+                    
+                    h3 {
+                        margin-top: 0px;
+                        margin-bottom: 0px;
+                        font-size: 18px;
+                    }
+                    
+                    .add-modal-content input {
+                        padding: 5px; /* Reduced padding for input fields */
+                        outline: none;
+                        width: 98%; /* Makes input fields take full width */
+                        box-sizing: border-box; /* Ensures padding does not exceed the width */
+                    }
+                    
+                    .add-close {
+                        position: absolute;
+                        top: 10px;
+                        right: 15px;
+                        color: #aaa;
+                        font-size: 28px;
+                        font-weight: bold;
+                        cursor: pointer;
+                    }
+                    
+                    .add-close:hover, .close:focus {
+                        color: black;
+                        text-decoration: none;
+                    }
+                    
+                    .submitBtn {
+                        padding: 8px 16px; /* Reduced padding for the button */
+                        background-color: #4CAF50;
+                        color: white;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        font-size: 14px;
+                        margin-top: 3px; /* Pushes the button to the bottom */
+                        align-self: center; /* Aligns the button to the center inside the modal */
+                    }
+                    
+                    .submitBtn:hover {
+                        background-color: #45a049;
+                    }
+                    
+
+                  
+                    
+
+
+                    
+
+                    
+                    
+                            
+       
+                

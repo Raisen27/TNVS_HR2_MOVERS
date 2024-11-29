@@ -1,0 +1,113 @@
+body {
+  background-color: #007aff26; /* Light blue background */
+  margin: 0; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  height: 80vh; 
+  padding-top: 60px; 
+}
+
+
+.register-container {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  width: 360px; /* Fixed width for the form */
+  background-color: #fff; /* White background for the form */
+  padding: 10px;
+  padding-top: 0px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin: 0px 0; /* Reduced top margin to move it up */
+  position: relative; /* Allows for further positioning adjustments if needed */
+  top: 30px; /* Move the container further up */
+}
+
+
+.register-container .success-message {
+  text-align: center; /* Center text for success message */
+  margin-bottom: 20px; /* Spacing below the message */
+  font-family: Arial; /* Font for message */
+  color: #28a745; /* Green color for success message */
+}
+
+.register-container .error-message {
+  color: #dc3545; /* Red color for error message */
+  margin-bottom: 15px; /* Spacing below error message */
+}
+
+.register-form h3 {
+  text-align: center; /* Centered heading */
+  margin-bottom: 20px; /* Spacing below heading */
+  font-family: Arial; /* Font for heading */
+}
+
+.input-group {
+  margin-bottom: 10px; /* Spacing between input groups */
+  width: 280px; 
+}
+
+.input-group label {
+  display: block; /* Block display for label */
+  margin-bottom: 5px; /* Spacing below label */
+  font-family: Arial; /* Font for labels */
+  font-weight: bold; /* Bold labels */
+}
+
+.input-group input {
+  width: 280px; /* Full width for inputs */
+  padding: 10px; /* Padding inside inputs */
+  border: 1px solid #ccc; /* Light grey border */
+  border-radius: 5px; /* Rounded corners for inputs */
+  font-size: 16px; /* Font size for input text */
+}
+
+.register-btn {
+  width: 300px; /* Full width for button */
+  padding: 10px; /* Padding inside button */
+  background-color: #007bff; /* Primary button color */
+  color: white; /* White text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size for button text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Transition effect for background */
+}
+
+.register-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.extra-links {
+  display: flex; /* Flex container for links */
+  justify-content: center; /* Centered links */
+  margin-top: 10px; /* Spacing above links */
+}
+
+.extra-links a {
+  text-decoration: none; /* No underline */
+  color: #007bff; /* Link color */
+  font-size: 14px; /* Font size for links */
+}
+
+.extra-links a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.login-btn {
+  display: inline-block; /* Inline block for button */
+  padding: 10px 15px; /* Padding for button */
+  background-color: #007bff; /* Button color */
+  color: white; /* White text color */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center; /* Center text in button */
+  margin-top: 10px; /* Spacing above button */
+  text-decoration: none; /* No underline */
+  transition: background-color 0.3s ease; /* Transition effect for button */
+}
+
+.login-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
